@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace eTickets.Data
+namespace eTickets.Data.Enums
 {
     public enum MovieCategory
     {
