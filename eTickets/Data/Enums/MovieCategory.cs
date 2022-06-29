@@ -1,7 +1,9 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace eTickets.Data.Enums
+namespace eTickets.Data
 {
     public enum MovieCategory
     {
@@ -9,7 +11,7 @@ namespace eTickets.Data.Enums
         Comedy,
         Drama,
         Documentary,
-        Horror,
-        Cartoon
+        Cartoon,
+        Horror
     }
 }
